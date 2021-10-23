@@ -1,8 +1,8 @@
 <template>
     <v-card
-    class="mx-auto pa-4"
-    max-width="400"
-    tile>
+    class="mx-auto pa-4 bg"
+    elevation="5"
+    max-width="400">
         <h2>Personajes</h2>
         <v-row no-gutters>
           <v-col
@@ -34,3 +34,8 @@
     }
   }
 </script>
+<style scoped>
+.bg {
+    background: rgb(159 168 218 / 80%) !important;
+}
+</style>

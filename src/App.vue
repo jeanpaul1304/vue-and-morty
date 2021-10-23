@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-main>
+    <v-main class="bg">
       <v-container>
         <v-row no-gutters>
           <v-col
@@ -35,3 +35,8 @@ export default {
   }),
 };
 </script>
+<style scoped>
+.bg {
+  background: url('https://i.pinimg.com/originals/62/40/53/624053b5cf52686164499bfd2f7e4a85.png')
+}
+</style>
